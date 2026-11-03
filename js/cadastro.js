@@ -77,7 +77,8 @@ if (registerForm) {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",
-          "ngrok-skip-browser-warning": "true" // Obriga o ngrok a não travar a requisição },
+          "ngrok-skip-browser-warning": "true"
+        }, // Obriga o ngrok a não travar a requisição
         body: JSON.stringify(dadosFormulario),
       },
     )
